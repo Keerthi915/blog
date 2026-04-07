@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oral Health Lab | Independent Oral Health Research</title>
+  <meta name="description" content="Oral Health Lab is an independent health publication about oral hygiene research, bathroom bacteria science, and practical habits.">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Oral Health Lab | Independent Oral Health Research">
+  <meta property="og:description" content="Oral Health Lab is an independent health publication about oral hygiene research, bathroom bacteria science, and practical habits.">
+  <meta property="og:image" content="https://oralhealthlab.com/images/og-image.jpg">
+  <meta property="og:url" content="https://oralhealthlab.com/">
+  <meta property="og:type" content="website">
+
+  <!-- FB PIXEL GOES HERE -->
+  <!-- GA GOES HERE -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="preload" as="style">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+  <style>
+    .hero-card {
+      display: flex; gap: 40px; align-items: center; background: #F8FAFB; border-radius: 12px; overflow: hidden; border: 1px solid var(--color-border);
+    }
+    .hero-image { flex: 1; }
+    .hero-content { flex: 1; padding: 40px 40px 40px 0; }
+    .article-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; }
+    @media (max-width: 768px) {
+      .hero-card { flex-direction: column; }
+      .hero-content { padding: 0 30px 40px 30px !important; }
+      .article-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container header-container">
+      <div class="logo-container">
+        <a href="/" class="logo">Oral Health Lab</a>
+        <span class="tagline">Independent Oral Health Research</span>
+      </div>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="/" class="active">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero page-section">
+      <div class="container">
+        <div class="hero-card">
+          <div class="hero-image">
+            <img src="/images/bathroom-habit-featured.jpg" alt="Toothbrush in bathroom" style="width: 100%; height: 100%; object-fit: cover; min-height: 350px;" loading="lazy">
+          </div>
+          <div class="hero-content">
+            <span style="color: var(--color-blue); font-weight: 700; font-size: 14px; text-transform: uppercase; letter-spacing: 1px; display: block; margin-bottom: 12px;">Featured Research</span>
+            <h2 style="font-size: 32px; color: var(--color-navy); line-height: 1.2; margin-bottom: 20px; letter-spacing: -0.5px;">The Bathroom Habit That's Been Undermining Your Entire Oral Care Routine</h2>
+            <p style="color: var(--color-text-light); margin-bottom: 24px;">Microscopic bacteria from every flush is coating your bathroom surfaces—including your toothbrush. Discover the invisible threat and what you can do about it.</p>
+            <a href="/articles/bathroom-habit" class="btn" style="display: inline-block; background-color: var(--color-navy); color: white; padding: 12px 24px; border-radius: 6px; font-weight: 500; transition: background-color 0.2s;">Read More &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="recent-articles" style="padding-bottom: 80px;">
+      <div class="container">
+        <h3 style="font-size: 24px; color: var(--color-navy); margin-bottom: 30px; padding-bottom: 15px; border-bottom: 1px solid var(--color-border);">Recent Articles</h3>
+        <div class="article-grid">
+          
+          <div class="article-card">
+            <div style="aspect-ratio: 16/9; background: #E8F0F3; border-radius: 8px; margin-bottom: 16px; overflow: hidden;">
+              <img src="/images/placeholder-1.jpg" alt="Article preview" style="width: 100%; height: 100%; object-fit: cover;" loading="lazy">
+            </div>
+            <h4 style="font-size: 20px; color: var(--color-navy); margin-bottom: 10px; line-height: 1.3;"><a href="#">Why Flossing Once a Week Is Actually Worse Than Not Flossing</a></h4>
+            <p style="color: var(--color-text-light); font-size: 15px;">The surprising science behind infrequent flossing and gum inflammation.</p>
+          </div>
+
+          <div class="article-card">
+            <div style="aspect-ratio: 16/9; background: #E8F0F3; border-radius: 8px; margin-bottom: 16px; overflow: hidden;">
+              <img src="/images/placeholder-2.jpg" alt="Article preview" style="width: 100%; height: 100%; object-fit: cover;" loading="lazy">
+            </div>
+            <h4 style="font-size: 20px; color: var(--color-navy); margin-bottom: 10px; line-height: 1.3;"><a href="#">The Truth About Alcohol-Based Mouthwash</a></h4>
+            <p style="color: var(--color-text-light); font-size: 15px;">How completely destroying your oral microbiome can lead to worse breath.</p>
+          </div>
+
+          <div class="article-card">
+            <div style="aspect-ratio: 16/9; background: #E8F0F3; border-radius: 8px; margin-bottom: 16px; overflow: hidden;">
+              <img src="/images/placeholder-3.jpg" alt="Article preview" style="width: 100%; height: 100%; object-fit: cover;" loading="lazy">
+            </div>
+            <h4 style="font-size: 20px; color: var(--color-navy); margin-bottom: 10px; line-height: 1.3;"><a href="#">Is Your Toothpaste Too Abrasive?</a></h4>
+            <p style="color: var(--color-text-light); font-size: 15px;">Checking the RDA value of popular whitening toothpaste brands.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Oral Health Lab. Independent health research publication.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
